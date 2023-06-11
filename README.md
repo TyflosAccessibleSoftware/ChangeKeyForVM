@@ -4,7 +4,7 @@ AppleScript to change the behaviour of the caps lock key for Virtual machines
 
 ## Description
 
-This repository includes two apple scripts to modify the behaviour of the physical keyboard.
+This repository includes some apple scripts to modify the behaviour of the physical keyboard.
 
 ### KeyboardForVM
  
@@ -34,6 +34,19 @@ Run the script to remap one of the available keys to other one.
 
 If you need to remap more keys you have to run the script again.
 
+### RemapCapsLockToInsert
+ 
+This AppleScript modifies the behaviour of the **caps lock** key changing it to the **Insert** key.
+
+This function is usefull for blind developers who needs to use a screen reader in a Virtual machine.
+
+When a Windows virtual machine is running the screen readers usually use the **Insert** key as the *HotKey* for the screen reader but this key is not available in a MacOS keyboard.
+
+#### Usage
+
+Run the script to aply the remap to the **Capslock** key.
+
+You have to use this script when you will start a Virtual machine app.
 
 ## Information
 
