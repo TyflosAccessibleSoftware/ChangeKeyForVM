@@ -34,6 +34,18 @@ Run the script to remap one of the available keys to other one.
 
 If you need to remap more keys you have to run the script again.
 
+### ResetCapsLock
+ 
+This AppleScript resets the behaviour of the **caps lock** key.
+
+This function is usefull for blind developers who needs to use a screen reader in MacOS.
+
+#### Usage
+
+Run the script to aply the remap to the **Capslock** key.
+
+You have to use this script when you finish to use a Virtual machine app.
+
 ### RemapCapsLockToInsert
  
 This AppleScript modifies the behaviour of the **caps lock** key changing it to the **Insert** key.
